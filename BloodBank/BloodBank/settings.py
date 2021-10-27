@@ -9,8 +9,13 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+#pre try mo ulit
 
 from pathlib import Path
+import OS
+SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
+template = [{'DIRS':[os.path.join(SETTINGS_PATH, 'template')]}]
+INSTALLED_APPS = [appsName,]
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,9 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-2-(avwu*st6=8#_87e3h=!nq9xaq$ruk*$ewsf--#u!@m@&iw6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
