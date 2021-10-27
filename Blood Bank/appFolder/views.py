@@ -1,2 +1,2 @@
 #testing
-#try ko lang ulit kung dadagdag
+#testing kung mag update sa pc ni rilan
