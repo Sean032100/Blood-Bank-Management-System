@@ -439,7 +439,8 @@ footer {
           text-align: center; }
       footer .content-ro .form-card .form-body {
         padding: 20px;
-        border-top: 1px solid #cccccc5; }
+        border-top: 1px solid #ccccc5;
+       }
         footer .content-ro .form-card .form-body input {
           border-radius: 0px;
           height: 47px; }
@@ -516,6 +517,10 @@ footer {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.marginnn{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
 .red{
   background-color: #de1f26;
   color: white;
@@ -560,3 +565,22 @@ footer {
 .danger {color: #f44336;} /* Red */
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* ===================================== AdminSite ================================== */
+#aboutadmin {
+  font: 900px;
+  margin-bottom: 50px;
+}
+#negatives {
+
+  margin: 30px;
+}
+#posfooter{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+
+}
