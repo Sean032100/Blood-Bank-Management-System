@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import OS
+SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
+template = [{'DIRS':[os.path.join(SETTINGS_PATH, 'template')]}]
+INSTALLED_APPS = [appsName,]
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
